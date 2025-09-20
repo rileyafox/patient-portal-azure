@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "SQL_SERVER": "your-sql-server.database.windows.net",
+    "SQL_DB": "patient_portal",
+    "SQL_USER": "sqladmin",
+    "SQL_PASSWORD": "YOUR_PASSWORD_HERE",
+    "SB_CONNSTR": "Endpoint=sb://...;SharedAccessKeyName=...",
+    "ACS_CONNSTR": "Endpoint=https://.../;AccessKey=...",
+    "FROM_PHONE": "+15555555555",
+    "FROM_EMAIL": "noreply@example.com"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "name": "msg",
+      "queueName": "%SB_QUEUE%",
+      "connection": "SB_CONNSTR"
+    }
+  ]
+}
